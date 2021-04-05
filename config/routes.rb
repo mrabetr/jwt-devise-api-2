@@ -4,4 +4,6 @@ Rails.application.routes.draw do
     registrations: :registrations,
     sessions: :sessions
   }
+
+  root to: "home#index"
 end
